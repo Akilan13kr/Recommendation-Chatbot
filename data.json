@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How may I help you?",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Come back anytime.",
+        "See you later. Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "No problem, happy to assist!"
+      ]
+    },
+    {
+      "tag": "company_info",
+      "patterns": [
+        "Tell me about [company]",
+        "What can you tell me about [company]?",
+        "Give me details about [company]"
+      ],
+      "responses": [
+        "Sure! [company] is a [description]. They are located at [location]. You can contact them at [contactNumber] or visit their website [website]."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does [company] offer?",
+        "Tell me about the services provided by [company]",
+        "What are the main offerings of [company]?"
+      ],
+      "responses": [
+        "[company] offers a wide range of services including [services]. They specialize in [specialization]."
+      ]
+    }
+  ],
+
+  "companies": [
+    {
+      "name": "Tata Consultancy Services",
+      "location": "Mumbai, Maharashtra",
+      "contactNumber": "+91-22-6778-9999",
+      "email": "info@tcs.com",
+      "website": "https://www.tcs.com",
+      "description": "Tata Consultancy Services is an Indian multinational information technology services and consulting company.",
+      "services": [
+        "IT services",
+        "Consulting",
+        "Business solutions"
+      ],
+      "specialization": "Digital transformation"
+    },
+    {
+      "name": "Infosys",
+      "location": "Bengaluru, Karnataka",
+      "contactNumber": "+91-80-2852-0261",
+      "email": "info@infosys.com",
+      "website": "https://www.infosys.com",
+      "description": "Infosys Limited is an Indian multinational information technology company that provides business consulting, information technology and outsourcing services.",
+      "services": [
+        "Business consulting",
+        "IT services",
+        "Outsourcing"
+      ],
+      "specialization": "Artificial Intelligence"
+    },
+    {
+      "name": "Microsoft",
+      "location": "Redmond, Washington, USA",
+      "contactNumber": "+1-800-642-7676",
+      "email": "info@microsoft.com",
+      "website": "https://www.microsoft.com",
+      "description": "Microsoft Corporation is an American multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, and personal computers.",
+      "services": [
+        "Software development",
+        "Cloud computing",
+	"Artificial Intelligence",
+	"Hardware devices"
+	],
+	"specialization": "Productivity software"
+	}
+]
+}
